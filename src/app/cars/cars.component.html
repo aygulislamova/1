@@ -1,0 +1,14 @@
+
+  <p>Список машин</p>
+
+   <p *ngFor="let car of cars">
+      <a
+     [routerLink]="['/car/:id']"
+     >{{car}}</a>
+    </p>
+
+
+
+<router-outlet></router-outlet>
+
+
